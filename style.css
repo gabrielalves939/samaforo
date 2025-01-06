@@ -64,3 +64,22 @@ button {
 button:hover {
   background-color: #777; /* Muda a cor ao passar o mouse */
 }
+.rodape {
+  position: absolute; /* Fixa o rodapé na parte inferior da página */
+  bottom: 0;
+  width: 100%; /* Faz o rodapé ocupar toda a largura da página */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px 0; /* Adiciona espaçamento vertical */
+  background-color: #111; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  font-size: 14px; /* Tamanho do texto */
+}
+
+.rodape a {
+  color: #4caf50; /* Cor do link (verde) */
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.rodape a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
