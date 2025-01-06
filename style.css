@@ -1,0 +1,66 @@
+/* Estiliza o corpo da página */
+body {
+  display: flex; /* Alinha os itens como um flex container */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Faz com que a altura ocupe toda a janela do navegador */
+  background-color: #222; /* Define a cor de fundo da página como cinza escuro */
+  margin: 0; /* Remove margens padrão do navegador */
+}
+
+/* Estiliza o contêiner do semáforo */
+.semaforo {
+  width: 100px; /* Largura do semáforo */
+  height: 300px; /* Altura do semáforo */
+  background-color: black; /* Cor de fundo do semáforo */
+  border-radius: 10px; /* Bordas arredondadas */
+  display: flex; /* Torna o semáforo um flex container */
+  flex-direction: column; /* Organiza as luzes em uma coluna */
+  justify-content: space-around; /* Adiciona espaço igual entre as luzes */
+  padding: 20px; /* Espaçamento interno para afastar as luzes das bordas */
+}
+
+/* Estiliza cada luz do semáforo */
+.luz {
+  width: 60px; /* Largura de cada luz */
+  height: 60px; /* Altura de cada luz */
+  border-radius: 50%; /* Torna as luzes circulares */
+  background-color: gray; /* Cor inicial das luzes (apagadas) */
+  margin: 0 auto; /* Centraliza as luzes horizontalmente no semáforo */
+  transition: background-color 0.3s; /* Adiciona uma transição suave ao mudar a cor */
+}
+
+/* Estiliza a luz vermelha quando está ativa */
+.vermelho.ativo {
+  background-color: red; /* Torna a luz vermelha quando ativa */
+}
+
+/* Estiliza a luz amarela quando está ativa */
+.amarelo.ativo {
+  background-color: yellow; /* Torna a luz amarela quando ativa */
+}
+
+/* Estiliza a luz verde quando está ativa */
+.verde.ativo {
+  background-color: green; /* Torna a luz verde quando ativa */
+}
+/* Botoes */
+.controles {
+  margin-top: 20px; /* Espaço entre o semáforo e os botões */
+  text-align: center; /* Centraliza os botões */
+}
+
+button {
+  margin: 5px; /* Espaço entre os botões */
+  padding: 10px 20px; /* Tamanho dos botões */
+  font-size: 16px; /* Tamanho do texto dos botões */
+  cursor: pointer; /* Adiciona um cursor de mão ao passar por cima */
+  border: none; /* Remove bordas padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  background-color: #555; /* Cor de fundo inicial */
+  color: white; /* Cor do texto */
+}
+
+button:hover {
+  background-color: #777; /* Muda a cor ao passar o mouse */
+}
