@@ -40,12 +40,9 @@ Este projeto é uma simulação interativa de um **semáforo** com luzes que alt
 
 ### **Demonstração**
 
-🚀 [Clique aqui para ver o projeto ao vivo](#)  
-_(Adicione o link do GitHub Pages ou outra plataforma, caso publique o projeto online.)_
 
----
 
-### **Captura de Tela**
+<img width="1177" alt="image" src="https://github.com/user-attachments/assets/f4bd53f5-6e96-4cf6-ab2f-a113376b7461" />
 
 ---
 
